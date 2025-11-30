@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shirish Gurung - Portfolio</title>
+    <link rel="stylesheet" href="work.css">
+</head>
+<body>
+    <div id="scroll-progress"></div>
+
+    <header id="hero">
+        <video autoplay loop muted playsinline id="video-background">
+            <source src="Gadi.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+        <nav class="navbar">
+            <span class="logo">Portfolio</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation" id="menu-button">
+                ☰
+            </button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Chameli</h1>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <img src="https://i.pinimg.com/474x/35/25/3f/35253f64facc999e781f9d679feb1841.jpg" alt="Shirish Gurung">
+            <div>
+                <p>Hello! I am Shirish Gurung, a passionate frontend developer currently studying at Herald College Kathmandu.</p>
+                <p>I love creating beautiful, responsive web applications using modern technologies.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML & CSS</h3>
+                <p>Building responsive web pages</p>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Creating interactive applications</p>
+            </div>
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Object-oriented programming</p>
+            </div>
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Data analysis and scripting</p>
+            </div>
+            <div class="skill-card">
+                <h3>Problem Solving</h3>
+                <p>Analytical thinking</p>
+            </div>
+            <div class="skill-card">
+                <h3>Team Work</h3>
+                <p>Collaboration skills</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div id="projects-grid">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio showcasing my skills using HTML5, CSS3, and JavaScript with responsive design.</p>
+            </div>
+            <div class="project-card">
+                <h3>Calculator App</h3>
+                <p>An interactive calculator built with JavaScript for basic arithmetic operations.</p>
+            </div>
+            <div class="project-card">
+                <h3>Todo List App</h3>
+                <p>A task management application with add, delete, and mark complete features.</p>
+            </div>
+            <div class="project-card">
+                <h3>Weather App</h3>
+                <p>Real-time weather information display using API integration.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form-id">
+            <label for="name">Name *</label>
+            <input type="text" id="name" placeholder="Enter your name">
+            
+            <label for="email">Email *</label>
+            <input type="email" id="email" placeholder="Enter your email">
+            
+            <label for="message">Message *</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="form-message" role="alert"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shirish Gurung. All rights reserved.</p>
+        <a href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">Learn about the Web</a>
+    </footer>
+
+    <script src="port.js"></script>
+</body>
+</html>
